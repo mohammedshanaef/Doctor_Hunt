@@ -4,4 +4,8 @@
 class AssetData {
   static const logo = 'assets/images/Beganing/Logo.svg';
   static const splashAnimation = 'assets/images/Beganing/splash_animation.json';
+  static const circleOnBoarding = 'assets/images/Beganing/Circle.svg';
+  static const doctorOnBoardingOne = 'assets/images/Beganing/doctorOne.svg';
+  static const doctorTwoOnBoarding = 'assets/images/Beganing/doctorTwoOnBoarding.svg';
+  static const imagedoc = 'assets/images/Beganing/image.svg';
 }

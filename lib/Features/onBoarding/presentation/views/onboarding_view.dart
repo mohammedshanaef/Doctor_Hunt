@@ -6,6 +6,6 @@ class OnBoardingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OnBoardingViewBody();
+    return SafeArea(child: OnBoardingViewBody());
   }
 }
