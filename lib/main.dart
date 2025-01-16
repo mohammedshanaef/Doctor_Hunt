@@ -1,4 +1,5 @@
 import 'package:doctor_consultant/Features/Splash/presentation/views/splash_view.dart';
+import 'package:doctor_consultant/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,9 @@ class DoctorHunt extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: SplashView(),
+      routerConfig: AppRouter.router,
     );
   }
 }
