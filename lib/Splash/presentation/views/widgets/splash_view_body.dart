@@ -1,3 +1,4 @@
+import 'package:doctor_consultant/core/utils/app_color.dart';
 import 'package:doctor_consultant/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -26,10 +27,10 @@ class LinearColorInSplash extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            Color(0xFF61CEFF),
-            Color(0xFFFFFFFF),
-            Color(0xFFFFFFFF),
-            Color(0xFF0EBE7E),
+            AppColors.gradientStart,
+            AppColors.gradientMiddle,
+            AppColors.gradientMiddle,
+            AppColors.gradientEnd,
           ],
           stops: [0.1, 0.3, 0.7, 1.0],
         ),
