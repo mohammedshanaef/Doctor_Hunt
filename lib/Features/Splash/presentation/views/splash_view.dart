@@ -1,4 +1,4 @@
-import 'package:doctor_consultant/Splash/presentation/views/widgets/splash_view_body.dart';
+import 'package:doctor_consultant/Features/Splash/presentation/views/widgets/splash_view_body.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatelessWidget {

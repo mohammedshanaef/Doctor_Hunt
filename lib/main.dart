@@ -1,4 +1,4 @@
-import 'package:doctor_consultant/Splash/presentation/views/splash_view.dart';
+import 'package:doctor_consultant/Features/Splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
